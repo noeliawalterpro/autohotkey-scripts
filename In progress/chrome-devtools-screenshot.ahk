@@ -20,6 +20,7 @@ return
 MyLabel:
 Send, {F12}
 Sleep, 2000 ;2 seconds wait
+;Issue to press ctrl shift p
 ;Send, {Control}{Shift}
 send, {^+ down}{p}
 sleep, 2000

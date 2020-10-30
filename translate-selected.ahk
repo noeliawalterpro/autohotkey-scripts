@@ -9,6 +9,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ;Function Translate the selected text by pressing CTRL + SHIFT + C
 
+
 ^+c::
 Sleep 125
 Send, ^c
